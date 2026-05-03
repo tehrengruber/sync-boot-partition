@@ -10,6 +10,6 @@ Target = boot/*
 [Action]
 Description = Syncing /boot to /boot_fallback...
 When = PostTransaction
-Exec = /usr/bin/sync-boot-fallback
+Exec = /usr/bin/sync-boot-partition
 Depends = rsync
 Depends = util-linux
