@@ -14,4 +14,4 @@ if ! mountpoint -q "$DST"; then
     exit 1
 fi
 
-rsync -aHAX --delete --info=stats2 "$SRC/" "$DST/"
+rsync -aHAX --delete "$SRC/" "$DST/"
