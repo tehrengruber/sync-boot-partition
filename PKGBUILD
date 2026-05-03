@@ -1,5 +1,5 @@
 pkgname=sync-boot-partition
-pkgver=1.0.0
+pkgver=1.0.1
 pkgrel=1
 pkgdesc="Mirror /boot to /boot_fallback after kernel/initramfs updates"
 arch=('any')

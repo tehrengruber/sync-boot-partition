@@ -14,4 +14,4 @@ if ! mountpoint -q "$DST"; then
     exit 1
 fi
 
-rsync -aHAX --delete "$SRC/" "$DST/"
+rsync -aHAX --delete-before --inplace "$SRC/" "$DST/"
